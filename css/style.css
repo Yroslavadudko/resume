@@ -19,6 +19,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #e5e5e5;
   padding: 40px;
+  font-style: normal;
   font-size: 14px;
   color: #000;
 }
@@ -49,9 +50,7 @@ body {
 .my-photo {
   margin-top: 40px;
 }
-.sidebar > ul ::marker {
-  color: #6d9bf5;
-}
+
 /* contact */
 .contact-container,
 .tech-skills-container,
@@ -62,7 +61,6 @@ body {
 }
 
 .sidebar-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 27px;
   line-height: 1.72;
@@ -70,7 +68,6 @@ body {
   margin-bottom: 8px;
 }
 .contacts-type {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.72;
@@ -81,14 +78,12 @@ body {
   margin: 0;
 }
 .contacts-number {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.72;
   color: #161d2a;
 }
 .contacts-email {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.72;
@@ -103,7 +98,6 @@ body {
   color: #6d9bf5;
 }
 .skills-list-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.72;
