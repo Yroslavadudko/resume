@@ -21,7 +21,9 @@ body {
   padding: 40px;
   font-style: normal;
   font-size: 14px;
-  color: #000;
+  font-weight: 400;
+  line-height: 1.72;
+  color: #000000;
 }
 
 .wrapper {
@@ -40,28 +42,20 @@ body {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.22;
-  color: #000000;
   margin: 0 0 8px 0;
 }
 /* about-me */
 .my-profession {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.22;
-  color: #000000;
   margin: 0 0 18px 0;
 }
 .my-name {
   font-weight: 700;
   font-size: 45px;
   line-height: 0.98;
-  color: #000000;
   margin: 0 0 28px 0;
 }
 .my-descr {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.72;
   color: #595959;
   width: 525px;
 }
@@ -78,20 +72,11 @@ body {
 }
 .project-item {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.72;
-  color: #000000;
 }
 .project-item-descr {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.72;
   color: #595959;
 }
 .project-item-link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.72;
   text-decoration-line: underline;
   color: #005fff;
 }
@@ -103,7 +88,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
-  color: #000000;
   margin: 0;
 }
 .work-experience-place {
@@ -113,16 +97,12 @@ body {
   color: #6d9bf5;
 }
 .work-period {
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.25;
   color: #a8a8a8;
   margin: 12px 0 8px 0;
 }
 .work-duties {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.72;
   color: #595959;
 }
 .work-duties-list {
@@ -134,20 +114,16 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
-  color: #000000;
   margin-top: 12px;
 }
 .education-profesional {
-  color: #000000;
-  font-size: 14px;
   font-weight: 700;
   line-height: normal;
   margin-top: 12px;
 }
 .education-period {
-  color: #A8A8A8;
+  color: #a8a8a8;
   font-size: 12px;
-  font-weight: 400;
   line-height: normal;
   margin-top: 12px;
 }
@@ -168,20 +144,16 @@ body {
 .soft-skills-container {
   margin: 48px 0 0 40px;
   color: #161d2a;
-  line-height: 1.72;
 }
 
 .sidebar-title {
   font-weight: 700;
   font-size: 27px;
-  line-height: 1.72;
   color: #161d2a;
   margin-bottom: 8px;
 }
 .contacts-type {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.72;
   color: #161d2a;
   margin-right: 8px;
 }
@@ -189,15 +161,9 @@ body {
   margin: 0;
 }
 .contacts-number {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.72;
   color: #161d2a;
 }
 .contacts-email {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.72;
   color: #2979ff;
 }
 /* Skills  */
@@ -209,9 +175,5 @@ body {
   color: #6d9bf5;
 }
 .skills-list-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.72;
   color: #161d2a;
 }
-
