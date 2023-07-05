@@ -75,10 +75,12 @@ body {
 }
 .project-item-descr {
   color: #595959;
+  font-weight: 400;
 }
 .project-item-link {
   text-decoration-line: underline;
   color: #005fff;
+  font-weight: 400;
 }
 /* work-experience */
 .work-experience-container {
