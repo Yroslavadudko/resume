@@ -36,7 +36,10 @@ body {
 }
 /* main content */
 .main-content {
-  padding: 88px;
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 40px;
 }
 .main-content-title {
   font-weight: 700;
@@ -132,12 +135,17 @@ body {
 
 /* sidebar */
 .sidebar {
-  width: 370px;
   background: #e0ebfe;
-  /* padding-top: 40px; */
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-.my-photo {
-  margin-top: 40px;
+/* .my-photo { */
+/* margin-top: 40px; */
+/* } */
+.sidebar-content {
+  padding-top: 40px;
+  /* padding-left: 40px; */
+  /* padding-right: 80px; */
 }
 
 /* contact */
@@ -178,4 +186,38 @@ body {
 }
 .skills-list-text {
   color: #161d2a;
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main-content {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+  }
+  .my-photo {
+    width: 275px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .sidebar {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .sidebar-content {
+    padding-top: 0;
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
